@@ -1,7 +1,6 @@
 import Enquire from '@/assets/Enquire';
 import Layout from '@/assets/Layout';
 import SpList from '@/assets/SpList';
-import SvgLoader from '@/assets/SvgLoader';
 import {
   Box,
   Button,

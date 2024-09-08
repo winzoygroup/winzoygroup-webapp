@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -7,8 +7,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from 'swiper';
-import { Avatar, Box, Paper, Stack, Typography } from '@mui/material';
+import { Pagination, Autoplay } from 'swiper';
+import { Avatar, Box, Stack, Typography } from '@mui/material';
 import { testimonialsData } from '@/utils/data';
 
 export default function StoriesSider() {

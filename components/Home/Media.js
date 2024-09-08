@@ -1,14 +1,4 @@
-import TextCard from '@/assets/cards/TextCard';
-import {
-  Box,
-  Button,
-  Card,
-  CardContent,
-  Container,
-  Grid,
-  Stack,
-  Typography,
-} from '@mui/material';
+import { Box, Container, Grid, Typography } from '@mui/material';
 import Lottie from 'lottie-web';
 import Image from 'next/image';
 import React, { useEffect } from 'react';

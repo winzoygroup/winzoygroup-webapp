@@ -11,6 +11,6 @@ export default function SvgLoader({ src, id }) {
       autoplay: !0,
       path: src,
     });
-  }, []);
+  }, [src, id]);
   return <Box sx={{ '& svg+svg': { display: 'none' } }} id={id}></Box>;
 }

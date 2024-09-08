@@ -24,7 +24,7 @@ export default function Theme({ children }) {
         fontSize: 14,
       },
       title: {
-        fontSize: 'calc(1.3rem + 1.5vw)',
+        fontSize: 'calc(1.3rem + 0.6vw)',
         textTransform: 'uppercase',
         color: 'var(--asset-color)',
         '& span': {
@@ -32,7 +32,7 @@ export default function Theme({ children }) {
         },
       },
       subTitle: {
-        fontSize: 'calc(1.01rem + 0.6vw)',
+        fontSize: 'calc(0.8rem + 0.6vw)',
         textTransform: 'uppercase',
         color: 'var(--asset-color)',
         fontWeight: 600,

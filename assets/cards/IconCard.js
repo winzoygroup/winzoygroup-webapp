@@ -11,7 +11,7 @@ export default function IconCard({ title, id, src, icon, disc, fontSize }) {
       autoplay: !0,
       path: src,
     });
-  }, []);
+  }, [id, src]);
   return (
     <Card sx={{ boxShadow: 'var(--shadow)' }}>
       <CardContent>

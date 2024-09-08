@@ -35,20 +35,20 @@ export default function AboutComp() {
           </Grid>
           <Grid item md={6}>
             <Box>
-              <Typography variant="title" component="h2">
-                Who we are
-              </Typography>
               <Typography variant="subTitle" component="h2">
-                Bringing your <span>DREAM</span> abroad to life
+                Who we are
+              </Typography>{' '}
+              <Typography variant="title" component="h2">
+                Bringing Your <span>Dream of Studying</span> Abroad to Life
               </Typography>
               <Typography component={'p'} sx={{ mt: 1 }}>
-                A well-known supplier of study visa services, Winzoy Education
-                focuses on helping students who want to study in Singapore and
-                Australia. With our innovative methods and constant dedication
-                to providing top-notch services, we have made a name for
-                ourselves in the sector. Our objective is to make the visa
-                application procedure as simple as possible so that students can
-                travel without difficulty.
+                Winzoy Education is a well-known provider of study visa
+                services, specializing in assisting students who wish to study
+                in Singapore and Australia. With our innovative methods and
+                unwavering commitment to delivering top-notch services, we have
+                established a strong reputation in the industry. Our goal is to
+                simplify the visa application process, ensuring that students
+                can embark on their educational journeys without difficulty.
               </Typography>
               <Link href={'/about'} passHref>
                 <Button variant="outlined" size="large" sx={{ mt: 2 }}>

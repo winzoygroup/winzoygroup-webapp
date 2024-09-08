@@ -11,9 +11,9 @@ export default function Whychoose() {
             Why choose us?
           </Typography>
           <Typography sx={{ mt: 1 }} component={'p'}>
-            If you want to relocate abroad, you need someone who has done
-            extensive study and has a thorough understanding of the location.
-            Winzoy Group can be of assistance here.
+            When considering relocating abroad, it's essential to have guidance
+            from someone with extensive research and in-depth knowledge of your
+            destination. This is where Winzoy Group can assist you.
           </Typography>
         </Box>
         <Stack
@@ -42,7 +42,7 @@ export default function Whychoose() {
           />
           <IconBox2
             num="60+"
-            title="RMA Agents"
+            title="Registered Migration Agents (RMA)"
             id="whyXicon-3"
             path="/animation/why-choose-31.json"
           />

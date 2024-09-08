@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from 'swiper';
+import { Autoplay } from 'swiper';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
 import { logoData } from '@/utils/data';

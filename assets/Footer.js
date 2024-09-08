@@ -87,12 +87,16 @@ export default function Footer() {
               />
             </Grid>
             <Grid item md={6}>
-              <Typography variant="subTitle" component="h3">
-                Dream Career, <span>PROMISING FUTURE</span> & Top University
-                Education
+              <Typography
+                variant="subTitle"
+                component="h3"
+                sx={{ textTransform: 'unset' }}
+              >
+                Achieve Your Dream Career with <span>Promising Futures</span>{' '}
+                and Top University Education.
               </Typography>
             </Grid>{' '}
-            <Grid item md={3}>
+            <Grid item md={3} sx={{ textAlign: { md: 'right', xs: 'left' } }}>
               <Button
                 variant="contained"
                 sx={{ py: 2, px: 6 }}
@@ -111,10 +115,10 @@ export default function Footer() {
               About Winzoy
             </Typography>
             <List>
-              <Link href={'/about'}>
+              <Link href={'/about'} passHref>
                 <ListItemButton>About Us</ListItemButton>
               </Link>{' '}
-              <Link href={'/contact/career'}>
+              <Link href={'/contact/career'} passHref>
                 <ListItemButton>Career </ListItemButton>
               </Link>
               {/* <Link href={'#'}>
@@ -124,10 +128,10 @@ export default function Footer() {
               Other Links
             </Typography>
             <List>
-              <Link href={'/privacy-policy'}>
+              <Link href={'/privacy-policy'} passHref>
                 <ListItemButton>Privacy Policy</ListItemButton>
               </Link>
-              <Link href={'/terms-and-conditions'}>
+              <Link href={'/terms-and-conditions'} passHref>
                 <ListItemButton>Terms & Conditions</ListItemButton>
               </Link>
             </List>
@@ -137,17 +141,17 @@ export default function Footer() {
               Education
             </Typography>
             <List>
-              <Link href={'/education/study-in-australia'}>
+              <Link href={'/education/study-in-australia'} passHref>
                 <ListItemButton>Study in Australia</ListItemButton>
               </Link>
               {/* <Link href={'/education/education-system'}>  <ListItemButton>Earning & Spending </ListItemButton></Link> */}
-              <Link href={'/education/education-system'}>
+              <Link href={'/education/education-system'} passHref>
                 <ListItemButton>Education System </ListItemButton>
               </Link>
-              <Link href={'/education/popular-courses'}>
+              <Link href={'/education/popular-courses'} passHref>
                 <ListItemButton>Popular Courses </ListItemButton>
               </Link>
-              <Link href={'/education/student-visa-process'}>
+              <Link href={'/education/student-visa-process'} passHref>
                 <ListItemButton>Student Visa Process </ListItemButton>
               </Link>
             </List>
@@ -157,22 +161,22 @@ export default function Footer() {
               Migration
             </Typography>
             <List>
-              <Link href={'/migration/employer-sponsored-visa'}>
+              <Link href={'/migration/employer-sponsored-visa'} passHref>
                 <ListItemButton>Employer Sponsored Visa </ListItemButton>
               </Link>
-              <Link href={'/migration/business-visa'}>
+              <Link href={'/migration/business-visa'} passHref>
                 <ListItemButton>Business Visa </ListItemButton>
               </Link>
-              <Link href={'/migration/australia-visitor-visa'}>
+              <Link href={'/migration/australia-visitor-visa'} passHref>
                 <ListItemButton>Australia Visitor Visa </ListItemButton>
               </Link>{' '}
-              <Link href={'/migration/family-sponsored-visa'}>
+              <Link href={'/migration/family-sponsored-visa'} passHref>
                 <ListItemButton>Family Sponsored Visa</ListItemButton>
               </Link>{' '}
-              <Link href={'/migration/partner-visa'}>
+              <Link href={'/migration/partner-visa'} passHref>
                 <ListItemButton>Partner Visa </ListItemButton>
               </Link>{' '}
-              <Link href={'/migration/parent-visa'}>
+              <Link href={'/migration/parent-visa'} passHref>
                 <ListItemButton>Parent Visa </ListItemButton>
               </Link>
             </List>
@@ -183,15 +187,12 @@ export default function Footer() {
             </Typography>
             <List>
               {' '}
-              <Link href={'/coaching/pte-coaching'}>
+              <Link href={'/coaching/pte-coaching'} passHref>
                 <ListItemButton>PTE Coaching </ListItemButton>
               </Link>{' '}
-              <Link href={'/coaching/personalised-online-coaching'}>
+              <Link href={'/coaching/personalised-online-coaching'} passHref>
                 <ListItemButton>PTE Online Coaching </ListItemButton>
               </Link>{' '}
-              {/* <Link href={'/migration/parent-visa'}>
-                <ListItemButton>Naati CCL Coaching </ListItemButton>
-              </Link> */}
             </List>
             <Typography variant="fHeading" component={'h3'}>
               Offerings
@@ -205,7 +206,6 @@ export default function Footer() {
               >
                 Online PTE Coaching
               </ListItemButton>
-              {/* <ListItemButton>Get My Policy </ListItemButton> */}
             </List>
           </Grid>
           <Grid item md={3}>

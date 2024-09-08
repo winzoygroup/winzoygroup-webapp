@@ -12,7 +12,7 @@ export default function IconBox2({ path, id, num, title }) {
       autoplay: !0,
       path: path,
     });
-  }, []);
+  }, [id, path]);
   return (
     <Box sx={{ maxWidth: 250, textAlign: 'center' }}>
       <Box
@@ -22,7 +22,7 @@ export default function IconBox2({ path, id, num, title }) {
       <Typography variant="title" component="p" sx={{ fontWeight: 700 }}>
         {num}
       </Typography>
-      <Typography variant="subTitle" component="p">
+      <Typography variant="subTitle" sx={{ fontSize: 15 }} component="p">
         {title}
       </Typography>
     </Box>

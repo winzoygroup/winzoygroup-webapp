@@ -1,9 +1,7 @@
-import TextCard from '@/assets/cards/TextCard';
-import { Box, Container, Grid, Stack, Typography } from '@mui/material';
+import { Box, Container, Grid, Typography } from '@mui/material';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import StoriesSider from './sider/StoriesSider';
-import { testimonialsData } from '@/utils/data';
 
 export default function Stories() {
   return (

@@ -18,7 +18,7 @@ export default function IconCard2({
       autoplay: !0,
       path: src,
     });
-  }, []);
+  }, [id, src]);
   return (
     <Card
       sx={{

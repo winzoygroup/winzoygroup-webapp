@@ -1,6 +1,5 @@
 import Enquire from '@/assets/Enquire';
 import Layout from '@/assets/Layout';
-import SvgLoader from '@/assets/SvgLoader';
 import IconCard from '@/assets/cards/IconCard';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
 import { Box, Button, Container, Grid, Tab, Typography } from '@mui/material';

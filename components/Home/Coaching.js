@@ -29,12 +29,11 @@ export default function Coaching() {
               Coaching
             </Typography>
             <Typography variant="subTitle" component="h4">
-              Learn what is necessary and <span>UNLOAD THE REST</span>
+              Learn What’s Necessary and <span>Leave the Rest</span> to Us
             </Typography>
             <Typography component="p" sx={{ mb: 2 }}>
-              We can help you with any language test planning, whether it is for
-              your advanced education or movement (for example PTE and NAATI
-              CCL).
+              We can assist you with language test preparation, whether it’s for
+              advanced education or relocation (e.g., PTE and NAATI CCL).
             </Typography>
             <Stack direction={'row'} sx={{ flexWrap: 'wrap' }}>
               <TextCard href={'/coaching/pte-coaching'}>PTE Coaching</TextCard>

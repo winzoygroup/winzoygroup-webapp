@@ -35,12 +35,16 @@ export default function Education() {
             <Typography variant="title" component="h2">
               Education
             </Typography>
-            <Typography variant="subTitle" component="h4">
-              World-class education aligned with <span>YOUR GOALS</span>
+            <Typography
+              variant="subTitle"
+              sx={{ textTransform: 'unset' }}
+              component="h4"
+            >
+              World-Class Education Aligned with <span>Your Goals</span>
             </Typography>
             <Typography component="p" sx={{ mb: 2 }}>
-              Utilize our professional advice to help you select your schools
-              and courses.
+              World-Class Education Aligned with Your Goals Leverage our expert
+              guidance to help you choose the right schools and courses.
             </Typography>
             <Stack direction={'row'} sx={{ flexWrap: 'wrap' }}>
               <TextCard href={'/migration/student-visa'}>Student Visa</TextCard>

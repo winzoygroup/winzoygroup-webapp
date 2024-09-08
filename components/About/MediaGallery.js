@@ -7,7 +7,6 @@ import {
   CardMedia,
   Container,
   Grid,
-  Stack,
   Tab,
   Typography,
 } from '@mui/material';

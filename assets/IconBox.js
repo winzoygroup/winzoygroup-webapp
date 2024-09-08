@@ -1,4 +1,4 @@
-import { Box, Icon } from '@mui/material';
+import { Box } from '@mui/material';
 import React from 'react';
 import { useEffect } from 'react';
 import Lottie from 'lottie-web';
@@ -12,7 +12,7 @@ export default function IconBox({ a_id, path }) {
       autoplay: !0,
       path: path,
     });
-  }, []);
+  }, [a_id, path]);
   return (
     <Box
       sx={{

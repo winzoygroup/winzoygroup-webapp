@@ -1,15 +1,12 @@
 import Layout from '@/assets/Layout';
-import { TabContext, TabList, TabPanel } from '@mui/lab';
 import {
   Box,
-  Button,
   Card,
   CardActionArea,
   CardContent,
   Container,
   Grid,
   Stack,
-  Tab,
   Typography,
 } from '@mui/material';
 import Image from 'next/image';

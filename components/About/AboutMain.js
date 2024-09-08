@@ -1,4 +1,3 @@
-import SvgLoader from '@/assets/SvgLoader';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,28 +15,27 @@ export default function AboutMain() {
           sx={{ flexDirection: { md: 'row', xs: 'column-reverse' } }}
         >
           <Grid item md={6}>
-            <Typography variant="title" component="h1" fontSize={28}>
-              Leading Migration Agents & Education Consultants in Australia
+            <Typography variant="title" component="h1" fontSize={26}>
+              Leading Relocation Agents & <span>Education Consultants</span> in
+              Australia
             </Typography>
             <Typography variant="p" component="p" sx={{ mb: 1 }}>
-              Welcome to our legitimate firm of enlisted movement specialists
-              and schooling advisors situated in Australia. With a broad history
-              of achievement, we have gladly served more than 50,000 fulfilled
+              Welcome to our reputable firm of registered relocation specialists
+              and education consultants based in Australia. With a proven track
+              record of success, we have proudly served over 50,000 satisfied
               clients.
             </Typography>{' '}
             <Typography variant="p" component="p" sx={{ mb: 1 }}>
-              Our devoted group of specialists is focused on directing you
-              through the intricacies of the movement cycle or your instructive
-              undertakings in Australia. As enlisted experts, we work with
-              complete adherence to moral guidelines, guaranteeing
-              straightforward and solid administrations for every one of our
-              clients.
+              Our dedicated team of experts is committed to guiding you through
+              the complexities of the relocation process or your educational
+              endeavors in Australia. As registered professionals, we adhere
+              strictly to ethical standards, ensuring transparent and reliable
+              services for all our clients.
             </Typography>
             <Typography variant="p" component="p">
-              Venture out towards your relocation objectives or instructive
-              dreams today.
+              Take the next step toward achieving your relocation goals or
+              educational dreams today.{' '}
               <Link href={'/contact-us'} className="link">
-                {' '}
                 Contact us
               </Link>{' '}
               for a consultation.

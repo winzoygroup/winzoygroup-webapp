@@ -76,17 +76,12 @@ const menu = [
         name: 'Personalised Online Coaching',
         url: '/coaching/personalised-online-coaching',
       },
-      // { name: 'Courses & College', url: '#' },
     ],
   },
   {
     name: 'Contact Us',
     url: '/contact',
     subItem: false,
-    // subItem: [
-    //   { name: 'Contact Us', url: '/contact' },
-    //   { name: 'Career', url: '/contact/career' },
-    // ],
   },
 ];
 
@@ -132,7 +127,7 @@ const SumMenuItem = ({ data }) => {
         >
           <List>
             {data.subItem.map((item) => (
-              <Link href={item.url} key={item.name}>
+              <Link href={item.url} key={item.name} passHref>
                 <ListItemButton className={router === item.url ? 'active' : ''}>
                   <Typography variant={'nav'}>{item.name}</Typography>
                 </ListItemButton>
@@ -159,7 +154,7 @@ export default function Header() {
         >
           <Toolbar sx={{ height: 70 }}>
             <Box flexGrow={1}>
-              <Link href="/" className="brand">
+              <Link href="/" className="brand" passHref>
                 <Image
                   src={'/images/logo/LOGO R.png'}
                   width={437}

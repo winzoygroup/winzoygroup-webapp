@@ -1,5 +1,4 @@
 import Enquire from '@/assets/Enquire';
-import IconBox2 from '@/assets/IconBox2';
 import Layout from '@/assets/Layout';
 
 import IconCard from '@/assets/cards/IconCard';

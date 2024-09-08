@@ -4,7 +4,7 @@ import Lottie from 'lottie-web';
 import Image from 'next/image';
 import React, { useEffect } from 'react';
 
-export default function Migration() {
+export default function JourneyAssistance() {
   useEffect(() => {
     Lottie.loadAnimation({
       container: document.getElementById('homepage-migration-1'),
@@ -19,10 +19,6 @@ export default function Migration() {
       <Container>
         <Grid container spacing={5} alignItems={'center'}>
           <Grid item md={6}>
-            {/* <Box
-              id="homepage-migration-1"
-              sx={{ '& svg+svg': { display: 'none' } }}
-            ></Box> */}
             <Image
               src="/images/visa.webp"
               width="832"
@@ -34,14 +30,14 @@ export default function Migration() {
           </Grid>
           <Grid item md={6}>
             <Typography variant="title" component="h2">
-              Migration
+              Journey Assistance
             </Typography>
             <Typography variant="subTitle" component="h4">
-              Just pack <span>YOUR BAGS</span> the rest is on us
+              Just pack your <span>bags—we’ll</span> take care of the rest.
             </Typography>
             <Typography component="p" sx={{ mb: 2 }}>
-              When it comes to migration services, our specialists are
-              incredibly accurate and attention to detail focused.
+              When it comes to relocation services, our specialists are
+              meticulous and detail-oriented.
             </Typography>
             <Stack direction={'row'} sx={{ flexWrap: 'wrap' }}>
               {/* <TextCard>General Skilled Migration</TextCard> */}

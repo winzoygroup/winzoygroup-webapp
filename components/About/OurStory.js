@@ -1,8 +1,7 @@
 import {
-  Fastfood,
-  Hotel,
-  LaptopMac,
-  Repeat,
+  HomeRepairServiceRounded,
+  OpenWithRounded,
+  TravelExploreRounded,
   WifiProtectedSetup,
 } from '@mui/icons-material';
 import {
@@ -22,14 +21,30 @@ export default function OurStory() {
     <div>
       <Container>
         <Box sx={{ py: 7, textAlign: 'center' }}>
-          <Typography variant="title" component="h2">
-            Our Story So Far
+          <Typography
+            variant="subTitle"
+            component="h3"
+            sx={{ fontSize: 18, color: 'var(--asset-color2)' }}
+          >
+            Our Journey So Far
           </Typography>
-          <Typography variant="subTitle" component="h3">
-            Here is our <span>JOURNEY</span>
+          <Typography variant="title" component="h2">
+            How We’ve Evolved
           </Typography>
         </Box>
-        <Timeline position="alternate">
+        <Timeline
+          position="alternate"
+          sx={{
+            '.MuiTypography-body2': {
+              fontSize: 20,
+              fontWeight: 700,
+              color: 'secondary.main',
+            },
+            '.MuiTypography-h6': {
+              color: 'primary.main',
+            },
+          }}
+        >
           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: 'auto 0' }}
@@ -41,20 +56,19 @@ export default function OurStory() {
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
-              <TimelineDot>
+              <TimelineDot color="secondary">
                 <WifiProtectedSetup />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Establish
+                Established
               </Typography>
               <Typography>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
-                deleniti eum necessitatibus porro, voluptates perspiciatis
-                ducimus dolor veniam animi libero assumenda dicta recusandae
-                quasi quo natus laboriosam aperiam temporibus iure!
+                We began our journey with a vision to make a difference. Over
+                the years, our commitment to excellence has driven us to achieve
+                significant milestones.
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -69,7 +83,7 @@ export default function OurStory() {
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot color="primary">
-                <LaptopMac />
+                <TravelExploreRounded />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
@@ -78,10 +92,8 @@ export default function OurStory() {
                 Setup in India
               </Typography>
               <Typography>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Perferendis temporibus ut quo, similique, modi omnis ipsum sint
-                odit autem odio architecto dicta nam officia veniam itaque.
-                Similique sapiente saepe ipsa!
+                We expanded our operations to India, broadening our reach and
+                enhancing our ability to serve a diverse range of clients.
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -96,20 +108,18 @@ export default function OurStory() {
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
-              <TimelineDot>
-                <WifiProtectedSetup />
+              <TimelineDot color="secondary">
+                <OpenWithRounded />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Establish
+                Further Expansion
               </Typography>
               <Typography>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
-                deleniti eum necessitatibus porro, voluptates perspiciatis
-                ducimus dolor veniam animi libero assumenda dicta recusandae
-                quasi quo natus laboriosam aperiam temporibus iure!
+                Our growth continued as we ventured into new markets, further
+                establishing our presence and capabilities.
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -124,19 +134,17 @@ export default function OurStory() {
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot color="primary">
-                <LaptopMac />
+                <HomeRepairServiceRounded />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Lorem, ipsum.{' '}
+                New Developments
               </Typography>
               <Typography>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Perferendis temporibus ut quo, similique, modi omnis ipsum sint
-                odit autem odio architecto dicta nam officia veniam itaque.
-                Similique sapiente saepe ipsa!
+                We introduced new initiatives and services, adapting to the
+                evolving needs of our clients and the industry.
               </Typography>
             </TimelineContent>
           </TimelineItem>
