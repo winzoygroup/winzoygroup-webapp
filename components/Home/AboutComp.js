@@ -39,20 +39,27 @@ export default function AboutComp() {
                 Who we are
               </Typography>{' '}
               <Typography variant="title" component="h2">
-                Bringing Your <span>Dream of Studying</span> Abroad to Life
+                BRINGING YOUR <span>DREAM OF STUDYING</span> ABROAD TO LIFE
               </Typography>
               <Typography component={'p'} sx={{ mt: 1 }}>
-                Winzoy Education is a well-known provider of study visa
-                services, specializing in assisting students who wish to study
-                in Singapore and Australia. With our innovative methods and
-                unwavering commitment to delivering top-notch services, we have
-                established a strong reputation in the industry. 
-                
+                Winzoy Education is a trusted Australian education consultancy
+                dedicated to helping students achieve their academic goals in
+                Australia. We provide expert guidance on course selection,
+                university admissions, scholarship opportunities, and ongoing
+                student support to ensure every student makes informed
+                decisions.
+              </Typography>{' '}
+              <Typography component={'p'}>
+                With years of experience and strong partnerships with Australian
+                education providers, our team is committed to delivering
+                transparent, ethical, and student-focused guidance throughout
+                the entire admission journey. Our goal is to make studying in
+                Australia a smooth and rewarding experience while helping
+                students build successful futures.
                 {/* Our goal is to
                 simplify the visa application process,  */}
-                
-                Our goal is to ensuring that students
-                can embark on their educational journeys without difficulty.
+                Our goal is to ensuring that students can embark on their
+                educational journeys without difficulty.
               </Typography>
               <Link href={'/about'} passHref>
                 <Button variant="outlined" size="large" sx={{ mt: 2 }}>
