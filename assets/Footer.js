@@ -253,7 +253,7 @@ export default function Footer() {
                   <NearMe />
                 </div>
                 <div>
-                  Suite 3, 71A Macquarie St, Parramatta NSW 2150, Australia
+                  1/304 Windsor St, Richmond NSW 2753, Australia
                 </div>
               </Stack>
               <a
