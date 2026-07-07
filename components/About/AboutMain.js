@@ -20,25 +20,10 @@ export default function AboutMain() {
               Australia
             </Typography>
             <Typography variant="p" component="p" sx={{ mb: 1 }}>
-              Welcome to our reputable firm of registered relocation specialists
-              and education consultants based in Australia. With a proven track
-              record of success, we have proudly served over 50,000 satisfied
-              clients.
-            </Typography>{' '}
-            <Typography variant="p" component="p" sx={{ mb: 1 }}>
-              Our dedicated team of experts is committed to guiding you through
-              the complexities of the relocation process or your educational
-              endeavors in Australia. As registered professionals, we adhere
-              strictly to ethical standards, ensuring transparent and reliable
-              services for all our clients.
+             Welcome to Winzoy Group, your trusted education consultancy dedicated to helping students achieve their dream of studying in Australia. With years of experience and a proven track record, we have proudly guided thousands of students in choosing the right courses, selecting the best institutions, securing admissions, and building successful academic futures. Our team provides personalized guidance at every stage of the education journey, from course selection and university applications to scholarship opportunities and ongoing student support. We are committed to delivering transparent, ethical, and student-focused services, ensuring every student receives the guidance they need to make confident decisions about their education. 
             </Typography>
             <Typography variant="p" component="p">
-              Take the next step toward achieving your relocation goals or
-              educational dreams today.{' '}
-              <Link href={'/contact-us'} className="link">
-                Contact us
-              </Link>{' '}
-              for a consultation.
+             Take the next step towards your academic goals with Winzoy Group and let us help you build a brighter future through quality education in Australia
             </Typography>
           </Grid>
           <Grid item md={6}>

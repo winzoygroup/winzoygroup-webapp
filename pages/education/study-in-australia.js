@@ -144,8 +144,8 @@ export default function Education() {
                   <IconCard
                     id="icon-X2459"
                     src="/animation/growing-economy-icon1.json"
-                    title="NEW STUDENT VISA"
-                    disc="Being MARA agents, we can assist you to gather all the documents required to support your student visa application and also represent it to Australian Immigration Department on your behalf."
+                    title="Course Selection"
+                    disc="We help students choose the right course and institution based on their academic background, career goals, budget, and long-term aspirations, ensuring they make an informed decision for studying in Australia."
                   />
                 </Grid>
                 <Grid item md={4}>
@@ -168,8 +168,8 @@ export default function Education() {
                   <IconCard
                     id="icon-X24ssasds59"
                     src="/animation/consistment-Innovation-ico1.json"
-                    title="EXTEND YOUR STAY"
-                    disc="If you are on a student or holiday visa and your visa is due to expire, we can assist you with the most common options that allows you to extend your stay in Australia.."
+                    title="Student Support"
+                    disc="Our support continues even after admission by assisting students with enrolment guidance, university documentation, orientation support, and resolving academic or administrative queries throughout their study journey."
                   />
                 </Grid>
               </Grid>
