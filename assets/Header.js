@@ -38,35 +38,35 @@ const menu = [
       { name: 'Student Visa Process', url: '/education/student-visa-process' },
     ],
   },
-  {
-    name: 'Migration',
-    url: '#',
-    subItem: [
-      {
-        name: 'Employer Sponsored Visa',
-        url: '/migration/employer-sponsored-visa',
-      },
-      {
-        name: 'Australia Visitor Visa',
-        url: '/migration/australia-visitor-visa',
-      },
-      { name: 'Partner Visa', url: '/migration/partner-visa' },
-      { name: 'Parent Visa', url: '/migration/parent-visa' },
-      {
-        name: 'Family Sponsored Visa',
-        url: '/migration/family-sponsored-visa',
-      },
-      { name: 'Student Visa', url: '/migration/student-visa' },
-      {
-        name: 'Temporary Activity Visa',
-        url: '/migration/temporary-activity-visa',
-      },
-      {
-        name: 'Business Visa',
-        url: '/migration/business-visa',
-      },
-    ],
-  },
+  // {
+  //   name: 'Migration',
+  //   url: '#',
+  //   subItem: [
+  //     {
+  //       name: 'Employer Sponsored Visa',
+  //       url: '/migration/employer-sponsored-visa',
+  //     },
+  //     {
+  //       name: 'Australia Visitor Visa',
+  //       url: '/migration/australia-visitor-visa',
+  //     },
+  //     { name: 'Partner Visa', url: '/migration/partner-visa' },
+  //     { name: 'Parent Visa', url: '/migration/parent-visa' },
+  //     {
+  //       name: 'Family Sponsored Visa',
+  //       url: '/migration/family-sponsored-visa',
+  //     },
+  //     { name: 'Student Visa', url: '/migration/student-visa' },
+  //     {
+  //       name: 'Temporary Activity Visa',
+  //       url: '/migration/temporary-activity-visa',
+  //     },
+  //     {
+  //       name: 'Business Visa',
+  //       url: '/migration/business-visa',
+  //     },
+  //   ],
+  // },
   {
     name: 'Coaching & Services',
     url: '/coaching',
