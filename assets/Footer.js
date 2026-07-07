@@ -110,7 +110,7 @@ export default function Footer() {
       </Box>
       <Container maxWidth="lg">
         <Grid container spacing={2}>
-          <Grid item md={2}>
+          <Grid item md={3}>
             <Typography variant="fHeading" component={'h3'}>
               About Winzoy
             </Typography>
@@ -136,7 +136,7 @@ export default function Footer() {
               </Link>
             </List>
           </Grid>
-          <Grid item md={2}>
+          <Grid item md={3}>
             <Typography variant="fHeading" component={'h3'}>
               Education
             </Typography>
@@ -181,7 +181,7 @@ export default function Footer() {
               </Link>
             </List>
           </Grid> */}
-          <Grid item md={2}>
+          <Grid item md={3}>
             <Typography variant="fHeading" component={'h3'}>
               Coaching
             </Typography>

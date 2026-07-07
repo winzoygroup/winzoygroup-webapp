@@ -47,7 +47,7 @@ export default function Education() {
               guidance to help you choose the right schools and courses.
             </Typography>
             <Stack direction={'row'} sx={{ flexWrap: 'wrap' }}>
-              <TextCard href={'/migration/student-visa'}>Student Visa</TextCard>
+              {/* <TextCard href={'/migration/student-visa'}>Student Visa</TextCard> */}
               {/* <TextCard>Cost & Expenses</TextCard> */}
               <TextCard href={'/education/education-system'}>
                 Education System

@@ -35,7 +35,7 @@ const menu = [
       { name: 'Study in Australia', url: '/education/study-in-australia' },
       { name: 'Education System', url: '/education/education-system' },
       { name: 'Popular Courses', url: '/education/popular-courses' },
-      { name: 'Student Visa Process', url: '/education/student-visa-process' },
+      // { name: 'Student Visa Process', url: '/education/student-visa-process' },
     ],
   },
   // {

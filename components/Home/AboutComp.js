@@ -46,8 +46,12 @@ export default function AboutComp() {
                 services, specializing in assisting students who wish to study
                 in Singapore and Australia. With our innovative methods and
                 unwavering commitment to delivering top-notch services, we have
-                established a strong reputation in the industry. Our goal is to
-                simplify the visa application process, ensuring that students
+                established a strong reputation in the industry. 
+                
+                {/* Our goal is to
+                simplify the visa application process,  */}
+                
+                ensuring that students
                 can embark on their educational journeys without difficulty.
               </Typography>
               <Link href={'/about'} passHref>

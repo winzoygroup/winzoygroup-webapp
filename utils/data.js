@@ -84,12 +84,12 @@ export const testimonialsData = [
     country: 'Australia',
     message: `I thank this company so much for getting my daughter's visa. I'm really very happy and thankful to sam sir and the other members too. Everyone in this company is very polite and friendly. I got replies on time and was updated on daily basis. Anyone who wants visa please consult sam sir, he's a very trustworthy person and you're visa will also arrive no matter what. Thank you so much, this means a lot to me!!!!`,
   },
-  {
-    name: 'Simran Saini',
-    country: 'Australia',
-    message: `I want to thanku winzoy group specially sam sir and sonia mamm they provide best service. I got my parents visitor visa in just few days.
-    My experience with Winjoy Group is very very good🙂`,
-  },
+  // {
+  //   name: 'Simran Saini',
+  //   country: 'Australia',
+  //   message: `I want to thanku winzoy group specially sam sir and sonia mamm they provide best service. I got my parents visitor visa in just few days.
+  //   My experience with Winjoy Group is very very good🙂`,
+  // },
   {
     name: 'Hardeep Singh',
     country: 'Australia',
