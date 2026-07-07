@@ -51,7 +51,7 @@ export default function AboutComp() {
                 {/* Our goal is to
                 simplify the visa application process,  */}
                 
-                ensuring that students
+                Our goal is to ensuring that students
                 can embark on their educational journeys without difficulty.
               </Typography>
               <Link href={'/about'} passHref>
