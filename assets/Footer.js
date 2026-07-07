@@ -151,12 +151,12 @@ export default function Footer() {
               <Link href={'/education/popular-courses'} passHref>
                 <ListItemButton>Popular Courses </ListItemButton>
               </Link>
-              <Link href={'/education/student-visa-process'} passHref>
+              {/* <Link href={'/education/student-visa-process'} passHref>
                 <ListItemButton>Student Visa Process </ListItemButton>
-              </Link>
+              </Link> */}
             </List>
           </Grid>
-          <Grid item md={3}>
+          {/* <Grid item md={3}>
             <Typography variant="fHeading" component={'h3'}>
               Migration
             </Typography>
@@ -180,7 +180,7 @@ export default function Footer() {
                 <ListItemButton>Parent Visa </ListItemButton>
               </Link>
             </List>
-          </Grid>
+          </Grid> */}
           <Grid item md={2}>
             <Typography variant="fHeading" component={'h3'}>
               Coaching

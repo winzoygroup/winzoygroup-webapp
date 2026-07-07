@@ -19,9 +19,9 @@ export default function Home() {
           <Whychoose />
         </Box>
         <Education />
-        <Box sx={{ mt: 10 }}>
+        {/* <Box sx={{ mt: 10 }}>
           <JourneyAssistance />
-        </Box>
+        </Box> */}
         <Box sx={{ mt: 10 }}>
           <Coaching />
         </Box>

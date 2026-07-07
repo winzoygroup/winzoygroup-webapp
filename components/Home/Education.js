@@ -55,9 +55,9 @@ export default function Education() {
               <TextCard href={'/education/popular-courses'}>
                 Popular Courses
               </TextCard>
-              <TextCard href={'/education/student-visa-process'}>
+              {/* <TextCard href={'/education/student-visa-process'}>
                 Student Visa Process
-              </TextCard>
+              </TextCard> */}
             </Stack>
           </Grid>
           <Grid item md={6}>
